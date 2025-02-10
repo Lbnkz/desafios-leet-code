@@ -1,0 +1,29 @@
+Há n crianças com doces. Você recebe um array de inteiros candies, onde cada um candies[i]representa o número de doces que a criança tem, e um inteiro , denotando o número de doces extras que você tem.ithextraCandies
+
+Retorna uma matriz booleana resultde comprimento n, onde result[i]é truese, depois de dar à criança todos os , ela terá o maior número de doces entre todas as crianças , ou não .ithextraCandiesfalse
+
+Observe que várias crianças podem ter o maior número de doces.
+
+ 
+
+Exemplo 1:
+
+Entrada: candies = [2,3,5,1,3], extraCandies = 3
+ Saída: [true,true,true,false,true] 
+ Explicação: Se você der todos os extraCandies para:
+- Criança 1, eles terão 2 + 3 = 5 doces, o que é o maior número entre as crianças.
+- Criança 2, eles terão 3 + 3 = 6 doces, o que é o maior número entre as crianças.
+- Criança 3, eles terão 5 + 3 = 8 doces, o que é o maior número entre as crianças.
+- Criança 4, eles terão 1 + 3 = 4 doces, o que não é muito bom entre as crianças.
+- Criança 5, eles terão 3 + 3 = 6 doces, o que é o maior número entre as crianças.
+Exemplo 2:
+
+Entrada: doces = [4,2,1,1,2], docesextras = 1
+ Saída: [verdadeiro,falso,falso,falso,falso] 
+ Explicação: Há apenas 1 doce extra.
+A criança 1 sempre terá o maior número de doces, mesmo que outra criança receba o doce extra.
+Exemplo 3:
+
+Entrada: doces = [12,1,12], docesextras = 10
+ Saída: [verdadeiro,falso,verdadeiro]
+ 
